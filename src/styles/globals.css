@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body.dark {
+  --color-primary: #fff;
+  --color-secondary: #111;
+  --color-accent: oklch(72% 0.17 250);
+}
+
+@theme {
+  --color-primary: #000;
+  --color-secondary: #fff;
+  --color-accent: oklch(68.5% 0.169 237.323);
+}
