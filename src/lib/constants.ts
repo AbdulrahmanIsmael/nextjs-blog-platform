@@ -115,3 +115,40 @@ export const filters: T_filters = [
   { id: 2, title: "Trending" },
   { id: 3, title: "Most Popular" },
 ];
+
+export const aboutSubjects: string[] = [
+  "Readora champions talented content creators worldwide, with a strong focus on programmers and technology professionals.",
+  "Empower your writing journey and build a meaningful content creation career with Readora.",
+  "As technology and programming become essential pillars of modern content creation, creators increasingly emerge from these fields.",
+  "Dreams illuminate the path to purpose—write with authenticity, passion, and clarity drawn from within.",
+  "Our mission is rooted in the growing intersection of technology, programming, and creative expression.",
+  "Readora is built to support creators who transform technical knowledge into impactful, accessible content.",
+  "At Readora, ambition meets opportunity, uniting creativity and technology to shape the future of digital storytelling.",
+];
+
+export const features = [
+  {
+    id: 1,
+    title: "High-Quality Tech Articles",
+    description:
+      "Readora delivers carefully curated articles that simplify complex technical concepts, helping developers and tech enthusiasts learn, grow, and stay up to date with industry trends.",
+    image: "/assets/images/tech-articles.webp",
+    position: "left",
+  },
+  {
+    id: 2,
+    title: "Community-Driven Knowledge",
+    description:
+      "Engage with a growing community of developers through shared insights, discussions, and real-world experiences that add depth and practical value to every article.",
+    image: "/assets/images/about.png",
+    position: "right",
+  },
+  {
+    id: 3,
+    title: "Modern & Distraction-Free Reading",
+    description:
+      "Enjoy a clean, focused reading experience designed to keep you immersed in content, with a modern interface that prioritizes clarity, accessibility, and performance.",
+    image: "/assets/images/experience.webp",
+    position: "left",
+  },
+];

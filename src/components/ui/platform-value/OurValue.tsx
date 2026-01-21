@@ -5,7 +5,7 @@ import Section from "@/components/shared/Section";
 const OurValue = () => {
   const values = [
     "Made for Everyone, but Specialized for Programmers",
-    "Shared Knowledge from Professionals",
+    "Sharing Knowledge and Engaging with Professionals",
     "Focus on Clarity, not Hype",
   ];
   return (
@@ -16,7 +16,7 @@ const OurValue = () => {
         <h3 className="text-white text-[clamp(2.5rem,4vw,5rem)] font-bold tracking-wider">
           Why Using Readora?
         </h3>
-        <ul className="flex flex-wrap items-center justify-between gap-y-8 gap-x-5 px-8">
+        <ul className="flex flex-wrap items-center justify-between gap-y-8 gap-x-5 px-5">
           {values.map((v, index) => (
             <li key={index} className="flex items-center gap-x-3">
               <FaCheck color="lightgreen" size={30} />
